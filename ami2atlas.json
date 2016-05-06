@@ -23,6 +23,11 @@
   }],
   "push": {
     "name": "rockaja/packer-tutorial"
-  }
+  },
+  "post-processors": [{
+    "type": "atlas",
+    "artifact": "rockaja/packer-tutorial",
+    "artifact_type": "amazon.image"
+  }]
 }
 
